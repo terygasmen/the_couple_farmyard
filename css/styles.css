@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Tinos:wght@400;700&display=swap');
+
+:root {
+    /* Fonts */
+    --main_font: 'Tinos', serif;
+    --sec_font: 'Poppins', sans-serif;
+    /* Colors */
+    --green: #2E3D21;
+    --white: #FFFEF9;
+}
+
+body {
+    background-color: var(--white);
+    color: var(--green);
+}
+header, main, footer {
+    padding: 2rem 10rem;
+}
+
+h1, h2, h3 {
+    font-family: var(--main_font);
+    margin: 0;
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+p {
+    font-family: var(--sec_font);
+    margin: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+header img {
+    width: 10rem;
+    height: 10rem;
+}
+header section {
+    align-self: center;
+}
+
+/* Footer */
+footer {
+    background-color: var(--green);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+footer img {
+    width: 10rem;
+    height: 10rem;
+    text-align: center;
+}
+.footer_head {
+    align-self: center;
+}
