@@ -28,6 +28,10 @@ p {
     font-family: var(--sec_font);
     margin: 0;
 }
+a {
+    text_decoration: none;
+    color: var(--green);
+}
 
 /* Header */
 header {
@@ -72,6 +76,14 @@ nav a:hover {
 /* Main */
 main {
     padding: 0 10rem 2rem 10rem;
+}
+.section_block {
+    color: var(--green);
+    padding: 2rem 10rem;
+    border-radius: 5px;
+}
+.section_block a {
+    color: var(--green);
 }
 
 /* Footer */
