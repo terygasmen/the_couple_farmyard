@@ -38,19 +38,17 @@ header {
     display: flex;
     justify-content: center;
     column-gap: 10px;
-    padding: 2rem 10rem 0 10rem;
+    justify-content: space-between;
+    padding: 2rem;
 }
 header img {
     width: 10rem;
     height: 10rem;
 }
-header section {
-    align-self: center;
-}
 
 /* Navigation */
 nav {
-    padding: 0 10rem 0.5rem 10rem;
+    align-self: center;
 }
 ul {
     list-style: none;
@@ -79,8 +77,9 @@ main {
 }
 .section_block {
     color: var(--green);
-    padding: 2rem 10rem;
     border-radius: 5px;
+    text-align: center;
+    padding: 8rem 0;
 }
 .section_block a {
     color: var(--green);
@@ -96,6 +95,8 @@ footer {
     display: flex;
     justify-content: center;
     column-gap: 10px;
+    border-bottom: 0.5px solid var(--white);
+    margin: 0 10rem;
 }
 .footer_head img {
     width: 10rem;
@@ -104,6 +105,11 @@ footer {
 }
 .footer_head_text {
     align-self: center;
+}
+.footer_body {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
 }
 .footer_section ul {
     display: block;
