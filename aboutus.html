@@ -4,37 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Couple's Farmyard | About Us</title>
+    <title>About Us | The Couple's Farmyard</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="images/TCF.jpg" alt="The Couple's Farmyard Logo"></a>
+        <div>
+            <!--Header Logo-->
+            <a href="index.html"><img src="images/TCF.jpg" alt="The Couple's Farmyard Logo"></a>
 
-        <nav>
-            <ul>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
-                <li><a href="contactus.html">Contact Us</a></li>
-            </ul>
-        </nav>
+            <!--Navigation on Desktop Views-->
+            <nav>
+                <ul id="main_navigation">
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </nav>
+
+            <!--Burger Icon Navigation on Tablet and Mobile Views-->
+            <button id="burger_icon"><span>&#9776;</span><span>&#9776;</span></button>
+        </div>
+
+        <!--Navigation on Tablet and Mobile Views-->
+        <ul id="burger_navigation">
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
     </header>
-    
+
+
     <main>
         <div class="section_block">
-            <h2>About Us</h2>
-            <p>The Couple's Farmyard is a ranch located at Sulvec, Narvacan, Ilocos Sur, Philippines; a farm tour destination adorned with outdoor facilities, cycling track, mini golf and assembly hall. You can also get a chance to pick seasonal vegetables and fruits, or served by our vegan resto. Whether you want an exclusive and peaceful nature experience or you want to engage in fun group activities and adventures, indulge among Ilocos Sur's landscapes by booking an AirBnB among our lodging accommodations or camp out to spend a quiet night or two under the stars.</p>
+            <h2>We are currently under construction.</h2>
+            <p>As long as you're curious, go to our <a href="https://www.facebook.com/The-Couples-Farmyard-109142291821582">Facebook Page</a> to see what we're up to.</p>
         </div>
     </main>
+
     <footer>
         <div class="footer_head">
+            <!--Footer Logo-->
             <a href=""><img src="images/TCF2.jpg" alt="The Couple's Farmyard Logo"></a>
+            
+            <!--Footer Contact Information-->
             <div class="footer_head_text">
                 <h2>The Couple's Farmyard</h2>
-                <p>Sulvec, Narvacan, Ilocos Sur, Philippines</p>
+                <p>thecouplefarmyard@gmail.com</p>
+                <p>0917 808 7384</p>
             </div>
+
+            <!--Footer Google Maps Embed-->
+            <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=the%20couple's%20farmyard,%20narvacan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         </div>
         <div class="footer_body">
             <section class="footer_section">
@@ -56,10 +81,12 @@
             <section class="footer_section">
                 <ul>
                     <li><a href="#">Dine in at our Vegan Resto</a></li>
-                    <li><a href="#">Pick Fresh Fruits form our Fruit Tree Farm</a></li>
+                    <li><a href="#">Pick Fresh Fruits from our Fruit Tree Farm</a></li>
                     <li><a href="#">Have fun with our Outdoor Facilities</a></li>
                 </ul>
             </section>
+
+            <!--Social Media Links-->
             <section class="footer_section">
                 <ul class="social_media">
                     <li><a href="https://www.facebook.com/The-Couples-Farmyard-109142291821582">Facebook</a></li>
@@ -67,6 +94,16 @@
                 </ul>
             </section>
         </div>
+
+        <!--Footer Copyright Information-->
+        <div class="footer_copyright">
+            <p class="copyright_info">&copy; 
+                <span id="copyright_year"></span>
+                The Couple's Farmyard | Tery Gasmen | Last Updated: 
+                <span id="copyright_update"></span>
+            </p>
+        </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
