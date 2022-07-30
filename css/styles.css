@@ -119,6 +119,11 @@ main {
     color: var(--green);
 }
 
+/* ABOUT US page */
+.about_us .introduction p {
+    text-align: justify;
+}
+
 /* Footer */
 footer {
     padding: 1rem;
