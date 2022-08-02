@@ -186,11 +186,26 @@ nav a:hover {
 }
 
 /* ABOUT US page */
+.about_us {
+    padding: 2rem;
+}
+.about_us .introduction h2 {
+    text-align: center;
+}
 .about_us .introduction p {
     text-align: justify;
 }
+.about_us .introduction img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
 
 /* BLOG page */
+.blog {
+    padding: 2rem;
+}
 .cards section {
     padding-bottom: 3.5rem;
     text-align: center;
